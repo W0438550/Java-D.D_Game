@@ -1,0 +1,104 @@
+package ca.nscc;
+
+import ca.nscc.CharacterWeapon;
+
+import javax.swing.*;
+
+public class BattleAxe extends CharacterWeapon {
+    private ImageIcon battleAxePicture = new ImageIcon("Image/battle_axe.jpg");
+    public BattleAxe(String weaponDescription, String name, int hpPoint, int defence, int agility, int baseAttack, int weight, int attackModifier) {
+        super(weaponDescription, name, hpPoint, defence, agility, baseAttack, weight, attackModifier);
+    }
+
+    public ImageIcon getBattleAxePicture() {
+        return battleAxePicture;
+    }
+
+    public void setBattleAxePicture (ImageIcon battleAxePicture)
+    {
+        this.battleAxePicture = battleAxePicture;
+    }
+
+    @Override
+    public String getWeaponDescription() {
+        return super.getWeaponDescription();
+    }
+
+    @Override
+    public void setWeaponDescription(String weaponDescription) {
+        super.setWeaponDescription(weaponDescription);
+    }
+
+    @Override
+    public String getName() {
+        return super.getName();
+    }
+
+    @Override
+    public void setName(String name) {
+        super.setName(name);
+    }
+
+    @Override
+    public int getHpPoint() {
+        return super.getHpPoint();
+    }
+
+    @Override
+    public void setHpPoint(int hpPoint) {
+        super.setHpPoint(hpPoint);
+    }
+
+    @Override
+    public int getDefence() {
+        return super.getDefence();
+    }
+
+    @Override
+    public void setDefence(int defence) {
+        super.setDefence(defence);
+    }
+
+    @Override
+    public int getAgility() {
+        return super.getAgility();
+    }
+
+    @Override
+    public void setAgility(int agility) {
+        super.setAgility(agility);
+    }
+
+    @Override
+    public int getBaseAttack() {
+        return super.getBaseAttack();
+    }
+
+    @Override
+    public void setBaseAttack(int baseAttack) {
+        super.setBaseAttack(baseAttack);
+    }
+
+
+
+    @Override
+    public int getWeight() {
+        return super.getWeight();
+    }
+
+    @Override
+    public void setWeight(int weight) {
+        super.setWeight(weight);
+    }
+
+    @Override
+    public int getAttackModifier() {
+        return super.getAttackModifier();
+    }
+
+    @Override
+    public void setAttackModifier(int attackModifier) {
+        super.setAttackModifier(attackModifier);
+    }
+}
+
